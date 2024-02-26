@@ -1,0 +1,11 @@
+<flowdefs>
+<vType id="car" accel="2.0" decel="2.5" maxSpeed="20" length="5"/>
+<!--warm-up period-->
+    <flow id="uf1_1" from="E1_1X" begin="0" end="900" number="200" type="car"/>
+    <flow id="uf1_2" from="E1_2X" begin="0" end="900" number="200" type="car"/>
+
+<!--simulation period-->
+    <flow id="sf1_1" from="E1_1X" begin="901" end="4500" number="1800" type="car"/>
+    <flow id="sf1_2" from="E1_2X" begin="901" end="4500" number="1000" type="car"/>
+
+</flowdefs>
