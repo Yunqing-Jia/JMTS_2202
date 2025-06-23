@@ -6,7 +6,7 @@
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
 
     <input>
-        <net-file value="test.net.xml"/>
+        <net-file value="JMTS_2202_1_0S.net.xml"/>
         <route-files value="test.rou.xml"/>
         <additional-files value="test.add.xml"/>
     </input>
